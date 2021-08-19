@@ -1,5 +1,69 @@
 @import "reset.css";
 
+/* Global */
+:root {
+  /* Color */
+  --color-white: #ffffff;
+  --color-light-white: #eeeeee;
+  --color-dark-white: #bdbdbd;
+  --color-black: #000000;
+  --color-dark-grey: #4d4d4d;
+  --color-grey: #616161;
+  --color-skyblue: #00b7ff;
+  --color-light-blue: #444ae3;
+  --color-violet: #c457fa;
+  --color-pink: #e34477;
+  --color-light-pink: ##e384be;
+  --color-orange: #fa4700;
+  --color-yellow: rgb(232, 252, 161);
+
+  /* Font size */
+  --font-large: 2rem;
+  --font-medium: 1.5rem;
+  --font-regular: 1rem;
+  --font-small: 0.8rem;
+  --font-micro: 0.5rem;
+
+  /* Font weight */
+  --weight-bold: 700;
+  --weight-semibold: 600;
+  --weight-regular: 400;
+
+  /* size */
+
+  --base-space: ;
+}
+
+/* Universal tags */
+* {
+  box-sizing: border-box;
+}
+
+/* Typography */
+h1 {
+  font-size: var(--font-large);
+  font-weight: var(--weight-bold);
+  color: var(--color-black);
+  margin: 16px 0px;
+}
+h2 {
+  font-size: var(--font-medium);
+  font-weight: var(--weight-semibold);
+  color: var(--color-black);
+  margin: 8px 0px;
+}
+h3 {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+  margin: 8px 0px;
+}
+p {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+  margin: 4px 0px;
+}
 body {
   font-family: "Open Sans", sans-serif;
 }
