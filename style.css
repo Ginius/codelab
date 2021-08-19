@@ -46,6 +46,12 @@ a {
   text-decoration: none;
   color: var(--color-white);
 }
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
 
 /* Typography */
 h1 {
@@ -78,7 +84,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--color-dark-grey);
+  background-color: var(--color-black);
 }
 .navbar__logo {
   display: flex;
@@ -112,4 +118,29 @@ p {
 }
 .navbar__menu__item:hover {
   background-color: var(--color-grey);
+}
+
+/* Mission */
+#mission {
+  background: center/cover no-repeat url(src/background.png);
+  text-align: center;
+  padding: 10rem;
+}
+
+.mission__title,
+.mission__description {
+  color: var(--color-white);
+}
+.mission__avatar {
+  width: 15em;
+  height: 15em;
+}
+.mission__button {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-white);
+  margin: 1em;
+  padding: 1em;
+  border: 2px solid var(--color-light-white);
+  border-radius: var(--border-radius);
 }
