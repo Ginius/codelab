@@ -122,7 +122,7 @@ p {
 
 /* Mission */
 #mission {
-  background: center/cover no-repeat url(src/background.png);
+  background: center/cover no-repeat url(src/mission-background.jpg);
   text-align: center;
   padding: 10rem;
 }
@@ -134,6 +134,7 @@ p {
 .mission__avatar {
   width: 15em;
   height: 15em;
+  border-radius: 50%;
 }
 .mission__button {
   font-size: var(--font-regular);
@@ -143,4 +144,72 @@ p {
   padding: 1em;
   border: 2px solid var(--color-light-white);
   border-radius: var(--border-radius);
+}
+
+/* About */
+#about {
+  text-align: center;
+}
+.about__majors {
+  margin: 2em 2em;
+  display: flex;
+  justify-content: space-between;
+}
+.major__icon {
+  width: 3em;
+  height: 3em;
+  line-height: 3em;
+  font-size: 3em;
+  margin: auto;
+  border: 1px solid var(--color-skyblue);
+  border-radius: 50%;
+  color: var(--color-light-blue);
+  margin-bottom: 0.5rem;
+}
+.major__icon i {
+  transition: all 300ms ease;
+}
+.major__icon:hover i {
+  color: var(--color-pink);
+  transform: scale(1.2);
+}
+.major__title,
+.major__description {
+  color: var(--color-dark-grey);
+}
+.major__description {
+  font-size: var(--font-small);
+}
+.major__title {
+  font-size: var(--font-size-medium);
+  font-weight: var(--weight-regular);
+}
+
+.job {
+  display: flex;
+  align-items: center;
+  margin: 1rem 2rem;
+}
+.job__logo {
+  width: 4em;
+  height: 4em;
+  border-radius: var(--border-radius);
+}
+.job__description {
+  margin: 0 2em;
+  text-align: left;
+}
+.job__name,
+.job__period {
+  color: var(--color-grey);
+}
+
+/* Skills */
+#skills {
+  text-align: center;
+}
+.skillsset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
